@@ -37,6 +37,23 @@ Run the script with Python:
 python redis_status_checker.py
 ```
 
+```
+┏━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━┓
+┃ Metric               ┃ Value              ┃
+┡━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━┩
+│ Redis Version        │ 7.1.0              │
+│ Redis Mode           │ standalone         │
+│ OS                   │ Amazon ElastiCache │
+│ Architecture Bits    │ 64                 │
+│ TCP Port             │ 6379               │
+│ Max Clients          │ 65000              │
+│ Connected Clients    │ 8                  │
+│ Used Memory          │ 10.19M             │
+│ Commands per second  │ 0                  │
+│ Hit rate             │ 0.85               │
+└──────────────────────┴────────────────────┘
+```
+
 Upon execution, the script will attempt to connect to the Redis server at `localhost:6379`. If successful, it will display various Redis metrics in a table format.
 
 ## Contributing
