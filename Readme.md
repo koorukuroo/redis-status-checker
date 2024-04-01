@@ -20,7 +20,7 @@ Before you begin, ensure you have met the following requirements:
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/RedisStatusChecker.git
+git clone https://github.com/koorukuroo/RedisStatusChecker.git
 ```
 
 Navigate to the cloned repository. Install the necessary packages using pip:
