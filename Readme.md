@@ -23,7 +23,12 @@ Clone the repository to your local machine:
 git clone https://github.com/koorukuroo/redis-status-checker.git
 ```
 
-Navigate to the cloned repository. Install the necessary packages using pip:
+Navigate to the cloned repository.
+```bash
+cd redis-status-checker
+```
+
+Install the necessary packages using pip:
 
 ```bash
 pip install redis rich
